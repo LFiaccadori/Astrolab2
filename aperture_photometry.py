@@ -8,7 +8,7 @@ from astropy import units as u
 from astropy.time import Time
 
 
-class TemporaryAperturePhotometry:
+class AperturePhotometry:
     def __init__(self):
         
         self.data_path = './group10_WASP-135_20190803/'
