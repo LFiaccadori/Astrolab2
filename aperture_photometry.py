@@ -30,7 +30,7 @@ class AperturePhotometry:
 
         # Computed in 03 - Science Analysis.ipynb
         self.science_path = self.data_path + 'science/'
-        self.science_list = np.genfromtxt(self.science_path + 'science.list', dtype = str)
+        self.science_list = np.genfromtxt(self.science_path + 'science2.list', dtype = str)
         self.science_size = len(self.science_list)
 
         # Meshgrid Definition (remember to swap x and y)
